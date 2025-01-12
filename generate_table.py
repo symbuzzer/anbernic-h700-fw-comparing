@@ -63,8 +63,34 @@ def create_markdown_table_with_general_info(general_info, firmware_data, output_
             )
 
 
+def create_markdown_table_compare_with_general_info(general_info, firmware_data, output_file):
+    """Firmware bilgileriyle Markdown tablosu oluşturur ve genel bilgileri ekler."""
+    with open(output_file, 'w', encoding='utf-8') as file:
+        for line in general_info:
+            file.write(line + "\n")
+        file.write("\n")
+
+        header = "| | "
+        separator = "|:----|"
+        pros = "| Pros | "
+        cons = "| Cons | "
+
+        for item in firmware_data:
+            header += item['name'] + " |"
+            separator += ":----|"
+            pros += item['pros'] + " |"
+            cons += item['cons'] + " |"
+        
+        file.write(header + "\n")
+        file.write(separator + "\n")
+        file.write(pros + "\n")
+        file.write(cons + "\n")
+
+
 if __name__ == "__main__":
     input_readme = "README.md"
     output_readme = "README_new.md"
+    output_horizontal = "README_horizontal_table.md"
     general_info, firmware_data = parse_readme_by_lines(input_readme)
     create_markdown_table_with_general_info(general_info, firmware_data, output_readme)
+    create_markdown_table_compare_with_general_info(general_info, firmware_data, output_horizontal)
