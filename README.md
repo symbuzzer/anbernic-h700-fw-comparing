@@ -89,7 +89,7 @@ Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX 2024, RG4
 ## [cbepx-me modded stock os](https://github.com/cbepx-me/Anbernic-H700-RG-xx-StockOS-Modification/blob/main/README.md)
 ### Info:
 - Status: Stable
-- Last update: 22/11/2025
+- Last update: 19/02/2026
 - [Releases](https://github.com/cbepx-me/Anbernic-H700-RG-xx-StockOS-Modification/releases)
 - Source: -
 ### Pros:
