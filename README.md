@@ -2,7 +2,7 @@
 
 Anbernic H700 devices: RG28XX, RG35XX Plus, RG35XX H, RG35XXSP, RG35XX 2024, RG40XX H, RG 40XXV, RG CUBEXX, RG 34XX, RG 34XXSP and RG 35XXPro
 
-*last update: 08/12/2025*
+*last update: 23/02/2026*
 
 [NORMAL VIEW](https://github.com/symbuzzer/anbernic-h700-fw-comparing/blob/main/README.md) / [TABLE VIEW](https://github.com/symbuzzer/anbernic-h700-fw-comparing/blob/main/README_new.md)
 -------------------- 
